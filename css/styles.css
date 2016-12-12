@@ -1,9 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Nova+Script");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 body {
+  background: black; }
+
+h1 {
+  color: #23CE6B;
+  font-family: "Nova Script", cursive;
+  text-align: center; }
+
+hr {
+  border: 1px solid #FF495C; }
+
+.container {
   background: black;
   display: flex;
   flex-direction: row;
@@ -18,13 +30,15 @@ body {
 .fifth-face,
 .sixth-face {
   display: flex;
-  border: 1px solid white;
+  border: 1px solid #FF495C;
+  border-radius: 5%;
   width: 200px;
-  height: 200px; }
+  height: 200px;
+  padding: 20px; }
 
 .pip {
   display: block;
-  background: white;
+  background: #23CE6B;
   width: 40px;
   height: 40px;
   border-radius: 50%; }
@@ -41,5 +55,26 @@ body {
 .second-face .pip:nth-child(2) {
   justify-content: flex-end;
   align-self: flex-end; }
+
+.third-face {
+  justify-content: space-between; }
+  .third-face .pip:nth-child(1) {
+    justify-content: flex-start; }
+
+.third-face .pip:nth-child(2) {
+  justify-content: center;
+  align-self: center; }
+
+.third-face .pip:nth-child(3) {
+  justify-content: flex-end;
+  align-self: flex-end; }
+
+.fourth-face {
+  justify-content: space-between; }
+  .fourth-face .column .pip:nth-child(2) {
+    align-items: flex-end; }
+  .fourth-face .column:nth-child(2) {
+    align-self: flex-end;
+    justify-content: space-between; }
 
 /*# sourceMappingURL=styles.css.map */
