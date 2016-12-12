@@ -10,7 +10,8 @@ body {
 h1 {
   color: #23CE6B;
   font-family: "Nova Script", cursive;
-  text-align: center; }
+  text-align: center;
+  margin-top: 1em; }
 
 hr {
   border: 1px solid #FF495C; }
@@ -20,7 +21,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 10em;
+  margin-top: 20em;
   flex-flow: row wrap; }
 
 .first-face,

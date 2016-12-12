@@ -10,6 +10,7 @@ h1 {
   color: $ufo;
   font-family: $stack-nova;
   text-align: center;
+  margin-top: 1em;
 }
 
 hr {
@@ -21,7 +22,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 10em;
+  margin-top: 20em;
   flex-flow: row wrap;
 }
 

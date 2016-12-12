@@ -1,18 +1,20 @@
-# _Title_
+# _Dice Challenge_
 
-#### _Project Epicodus: Date_
+#### _Lesson Epicodus: FlexBox Date: 12-12-16_
 
-#### By _**Megan Kaluza**_
+#### By _**Megan Kaluza and Dean Scelza**_
 
-![screenshot]
+![screenshot](screen_shot.png)
 
 ## Description
 
-
+_Use flexbox to design each die._
 
 ## Setup/Installation Requirements
 
-* _Clone this repository https://github.com/megankaluza/https://github.com/megankaluza/css-sass-template.git_
+
+* _Check out the GitHub Pages: https://megankaluza.github.io/dice-challenge_
+* _Clone this repository https://github.com/megankaluza/https://github.com/megankaluza/dice-challenge.git_
 * _gem install sass_
 * _sass --watch ._
 * _Open in browser of your choice_
@@ -30,11 +32,11 @@ _No known bugs at this time_
 * _HTML_
 * _CSS_
 * _SASS_
-* _Bootstrap_
+* _Flexbox_
 
 ### License
 
-Copyright (c) 2016 **_Megan Kaluza_**
+Copyright (c) 2016 **_Megan Kaluza and Dean Scelza_**
 
 This software is licensed under the MIT license.
 
