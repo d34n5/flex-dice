@@ -71,10 +71,9 @@ hr {
 
 .fourth-face {
   justify-content: space-between; }
-  .fourth-face .column .pip:nth-child(2) {
-    align-items: flex-end; }
-  .fourth-face .column:nth-child(2) {
-    align-self: flex-end;
-    justify-content: space-between; }
+  .fourth-face .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
 
 /*# sourceMappingURL=styles.css.map */

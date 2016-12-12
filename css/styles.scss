@@ -91,12 +91,8 @@ hr {
 .fourth-face {
   justify-content: space-between;
   .column {
-    .pip:nth-child(2){
-      align-items: flex-end;
-    }
-  }
-  .column:nth-child(2){
-    align-self: flex-end;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
