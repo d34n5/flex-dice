@@ -3,7 +3,7 @@
 @import "base/index";
 
 body {
-  background: black;
+  background: $black;
 }
 
 h1 {
@@ -17,7 +17,7 @@ hr {
 }
 
 .container {
-  background: black;
+  background: $black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -93,6 +93,27 @@ hr {
   .column {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+}
+
+.fifth-face {
+  justify-content: space-between;
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .column:nth-child(2) {
+    align-self: center;
+  }
+}
+
+.sixth-face {
+  justify-content: space-between;
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
